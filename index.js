@@ -5,3 +5,4 @@ async function loadHTMLToElement(elementID, htmlFile) {
 }
 
 loadHTMLToElement("testHolder", "test.html")
+    .then(() => document.getElementById("abacaxi").style.setProperty("color", "purple"))
