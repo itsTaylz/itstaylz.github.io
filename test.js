@@ -7,3 +7,5 @@ alert(fs);
 fs.writeFile('ITCHIOEXPLOIT.txt', "AHAHA", (err) => {
     alert(err.message);
 })
+
+alert('written!');
