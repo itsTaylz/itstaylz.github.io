@@ -31,6 +31,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0em 2em;
+    font-size: 0.7em;
 }
 
 nav a:hover {
@@ -46,5 +47,11 @@ nav a:hover {
 @keyframes listFadeIn {
     from {
         opacity: 0%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    nav a {
+        font-size: 1em;
     }
 }
