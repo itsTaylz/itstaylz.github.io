@@ -1,1 +1,0 @@
-loadHTMLToElement("header", "common/header.html");
