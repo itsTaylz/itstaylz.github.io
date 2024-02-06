@@ -91,3 +91,39 @@ body {
     filter: grayscale(0%);
     transform: scale(1.2);
 }
+
+@media (max-width: 799px) {
+    .container {
+        width: 600px;
+        height: 300px;
+    }
+
+    .about-text-container {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 599px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        height: 500px;
+    }
+
+    .profile-container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .profile-image {
+        width: 100px;
+    }
+
+    .about-container {
+        width: 100%;
+        height: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
